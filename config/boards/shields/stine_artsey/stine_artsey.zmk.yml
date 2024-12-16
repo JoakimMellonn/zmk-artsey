@@ -1,0 +1,9 @@
+file_format: "1"
+id: stine_artsey
+name: Stine Artsey
+type: shield
+url: https://github.com/JoakimMellonn/dactyl-joakim/
+requires:
+  - pro_micro
+features:
+  - keys
