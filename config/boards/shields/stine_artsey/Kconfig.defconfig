@@ -3,4 +3,16 @@ if SHIELD_STINE_ARTSEY
     config ZMK_KEYBOARD_NAME
         default "STINE-ARTSEY"
 
+    config I2C
+        default y
+
+    config CONFIG_ZMK_DISPLAY
+        default y
+
+    config CONFIG_ZMK_WIDGET_WPM_STATUS
+        default y
+
+    config CONFIG_ZMK_WIDGET_BATTERY_STATUS
+        default n
+
 endif
