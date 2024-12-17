@@ -1,6 +1,0 @@
-if SHIELD_STINE_ARTSEY
-
-    config ZMK_KEYBOARD_NAME
-        default "STINE-ARTSEY"
-
-endif
