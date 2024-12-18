@@ -4,7 +4,7 @@
     oled: ssd1306@3c {
 		compatible = "solomon,ssd1306fb";
 		reg = <0x3c>;
-		label = "DISPLAY";
+		label = "OLED";
 		width = <128>;
 		height = <32>;
 		segment-offset = <0>;
@@ -22,7 +22,7 @@
 / {
     chosen {
 		zmk,kscan = &kscan0;
-		zephyr,display = &oled;
+		zmk,display = &oled_display;
     };
 
     kscan0: kscan_0 {
